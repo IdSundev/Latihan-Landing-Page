@@ -58,3 +58,29 @@
   margin-bottom: 10px;
   width: 200px;
 }
+.interest-content{
+  position: absolute;
+  z-index: 10;
+  padding: 0px 15%;
+  text-align: center;
+}
+.interest-content h1{
+  color: #ecf0f1;
+  margin: 50px 0px;
+  font-family: 'Real Young';
+  font-weight: Regular;
+  font-size: 75px;
+}
+.interest{
+  padding: 20px;
+}
+.interest-item{
+  background-color: #ecf0f1;
+  text-align: center;
+}
+.interest-item img{
+  margin: 0 auto;
+}
+.interest-item h3{
+  padding: 10px;
+}

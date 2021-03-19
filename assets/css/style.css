@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+@font-face {
+  font-family: 'Real Young';
+  src: url('../fonts/Real-Young.eot');
+  src: url('../fonts/Real-Young.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Real-Young.woff2') format('woff2'),
+       url('../fonts/Real-Young.woff') format('woff'),
+       url('../fonts/Real-Young.ttf')  format('truetype'),
+       url('../fonts/Real-Young.svg#Real Young') format('svg');
+}
+#particles-js {
+  position: absolute;
+  background-image: url('/assets/images/bg.png');
+  background-size:auto;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+.navbar-brand{
+  font-family: 'Real Young';
+  font-weight: Regular;
+  color: #34495e;
+}
+.main-content{
+  margin-top: 100px;
+  position: absolute;
+  z-index: 10;
+  padding: 0px 15%;
+}
+.content{
+  background-color: #ecf0f1;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.content img{
+  max-width: 50%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.content h1{
+  text-align: center;
+  color: #2c3e50;
+  font-family: 'Real Young';
+  font-weight: Regular;
+}
+.copy{
+  background-color: #bdc3c7;
+  border-radius: 0px 0px 5px 5px;
+  padding: 10px 0px;
+  color: black;
+}
+.content a{
+  margin-bottom: 10px;
+  width: 200px;
+}

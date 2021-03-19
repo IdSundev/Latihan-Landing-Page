@@ -1,12 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>My Landing Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+  <link rel="stylesheet" href="/assets/css/font-awesome.css">
 </head>
-<body>
-  <h1>Cef Syarif</h1>
+<body id="particles-js">
+  <!-- Navigation  -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="https://idsundev.github.io/">CS29</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://idsundev.github.io/">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/interest.html">INTEREST</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/interest.html">GUESTBOOK</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<div class="container-fluid main-content">
+  <div class="row">
+    <div class="col-4"></div>
+    <div class="col-md-4 col-sm-12">
+      <div class="content">
+        <img src="/assets/images/profile.png" alt="" class="img-fluid">
+        <h1>Asep Syarif</h1>
+        <a class="btn btn-block btn-social btn-google btn-sm" href="mailto:cef.syarif@gmail.com">
+          <span class="fa fa-google"></span>
+          cef.syarif@gmail.com
+        </a><br>
+        <a class="btn btn-block btn-social btn-twitter btn-sm" href="https://twitter.com/IdSundev" target="_blank">
+          <span class="fa fa-twitter"></span>
+          Follow Me @IdSundev
+        </a><br>
+        <a class="btn btn-block btn-social btn-github btn-sm" href="https://github.com/IdSundev" target="_blank">
+          <span class="fa fa-github"></span>
+          Find Me at GitHub
+        </a><br>
+        <div class="copy">
+          &#169;cefsyarif2021
+        </div>
+      </div>
+    </div>
+    <div class="col-4"></div>
+  </div>
+</div>
+
+  
+  <script src="/assets/js/particles.min.js"></script>
+  <script src="/assets/js/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 </html>
